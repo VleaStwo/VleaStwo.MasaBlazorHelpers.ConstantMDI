@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.1</TargetFramework>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Authors>VleaStwo</Authors>
+		<Version>7.1.91</Version>
+		<FileVersion>0.0.2</FileVersion>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+		<RepositoryUrl>https://github.com/VleaStwo/VleaStwo.MasaBlazorHelpers.ConstantMDI.git</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/VleaStwo/VleaStwo.MasaBlazorHelpers.ConstantMDI</PackageProjectUrl>
+		<Description>Material Design Icons 图标名转为CSharp常量方便使用</Description>
+	</PropertyGroup>
+	
+	<ItemGroup>
+	  <None Include="..\LICENSE.txt">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+</Project>
